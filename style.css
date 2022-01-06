@@ -14,8 +14,7 @@ p{
 
 .flexible-container{
     display: flex;
-    margin: 30px 8%;
-    text-align: justify;
+    margin: 20px 8%;
 }
 
 .flexible-item-equal-div{
@@ -24,7 +23,7 @@ p{
     margin: 10px;
 }
 
-.flexible-container img{
+.section-img{
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -48,8 +47,32 @@ p{
 
 .link-btn{
     text-decoration: none;
-    background-image: linear-gradient(red, rgb(255, 115, 0));
-    padding: 10px 40px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.87), rgba(199, 98, 16, 0.774));
+    padding: 10px 30px;
     color: white;
     margin: 20px 0;
+    border-radius: 5px;
+}
+
+.middle{
+    text-align: center;
+}
+
+.mission-2022{
+    width: 31%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.mission-2022 img{
+    width: 120px;
+}
+#mission{
+    background-color: rgba(224, 150, 224, 0.267);
+}
+#vision{
+    background-color: rgba(145, 185, 107, 0.356);
+}
+#goals{
+    background-color: rgba(114, 121, 184, 0.308);
 }
