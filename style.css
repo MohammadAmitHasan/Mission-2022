@@ -17,15 +17,13 @@ p{
 
 .flexible-container{
     display: flex;
-    margin: 50px 5% 100px;
+    margin: 50px 5%;
     padding: 0 5% 0;
 }
-
-#profile-photo{
-    width: 70%;
-}
-.section-img{
-    width: 100%;
+.flexible-item-txt{
+    width: 55%;
+    margin: 1%;
+    margin-right: 100px;
 }
 
 #top-section-header{
@@ -53,6 +51,14 @@ p{
     border-radius: 5px;
 }
 
+.flexible-item-img{
+    width: 35%;
+    margin: 0 5% 0 1%;
+}
+.section-img{
+    width: 100%;
+}
+
 .middle{
     text-align: center;
 }
@@ -76,26 +82,35 @@ p{
     background-color: rgba(255, 245, 214);
 }
 
-.flexible-item-txt{
-    width: 55%;
-    margin: 1%;
-    margin-right: 60px;
+#develope-without-limit{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
 }
 
-.flexible-item-img{
-    width: 35%;
-    margin: 0 5% 0 1%;
+#global-community{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px 200px;
 }
 
-.flexible-item-half{
-    width: 45%;
-    padding: 0 20px;
-    margin: 1%;
+#disease-detection-website{
+    background-image: url(images/shape-7.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 300px 300px;
+    margin: 100px 5% 150px;
+}
+.disease-detection-website-div{
+    margin: 0 auto;
+    padding: 20px 20% 0;
 }
 
 footer{
     text-align: center;
-    background-color: rgb(2, 9, 19);
+    background-color: black;
     color: white;
 }
 footer h2{
